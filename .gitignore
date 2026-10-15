@@ -1,0 +1,28 @@
+
+# Secret API keys
+.env
+.env.*
+
+# Python virtual environment
+venv/
+__pycache__/
+*.py[cod]
+
+# Local vector database
+chroma_db/
+
+# Full Bhagavad Gita vector database
+chroma_db_full_gita/
+
+# Original source PDF
+data/*.pdf
+
+# Local PDF inspection and debugging files
+page_*_extracted.txt
+test_page.png
+verse_crop.png
+verse_page_*.png
+
+# Generated datasets and extracted text
+data/chapter13_*.json
+data/full_gita_*.json
